@@ -3,9 +3,9 @@ version: "3.3"
 services:
   node:
     container_name: node
-    build: ./docker/node/
-    ports: 
+    build: ./
+    ports:
       - 3000:3000
     volumes:
-      - ./app/node:/app
+      - ./:/app
     tty: true
