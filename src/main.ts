@@ -6,6 +6,3 @@ import App from './App.vue';
 createApp(App).mount('#app');
 
 const s = 0;
-
-if (s === 0) {
-}
