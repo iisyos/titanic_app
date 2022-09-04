@@ -1,14 +1,19 @@
 {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "files.exclude": {
-      "dist": true,
-      "node_modules": true
-    },
-    "i18n-ally.displayLanguage": "ja",
-    "i18n-ally.keystyle": "nested",
-    "i18n-ally.localesPaths": "locales",
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "files.exclude": {
+    "dist": true,
+    "node_modules": true
+  },
+  "i18n-ally.displayLanguage": "ja",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": "locales",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "stylelint.configFile": "./.stylelintrc",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
+}

@@ -7,7 +7,8 @@
     "dev": "vite --port 3000",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .gitignore .",
+    "lint:script": "eslint --ext .js,.jsx,.ts,.tsx,.vue --ignore-path .gitignore .",
+    "lint:style": "stylelint src/**/*.{css,scss}",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -24,6 +25,10 @@
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.16",
+    "stylelint": "^14.11.0",
+    "stylelint-config-recommended": "^9.0.0",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-prettier": "^2.0.0",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
