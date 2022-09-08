@@ -48,7 +48,7 @@
 
 <script setup lang="ts">
 import { Features } from '@/types';
-import { ref, reactive, toRaw } from 'vue';
+import { ref, reactive } from 'vue';
 import axios from 'axios';
 const features = reactive<Features>({
   Sex: '男性',
