@@ -41,7 +41,10 @@
     <br />
     <button class="btn btn-primary" @click="displayOutput">結果を出力</button>
     <template v-if="survivalProbability !== undefined">
-      <div class="alert alert-error mt-4">あなたの生存確率は {{ Math.round(survivalProbability) }} % です。</div>
+      <div class="alert alert-error mt-4 w-52 justify-center">
+        あなたの生存確率は<br />
+        {{ Math.round(survivalProbability) }} % です。
+      </div>
     </template>
   </div>
 </template>
