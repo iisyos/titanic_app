@@ -64,8 +64,6 @@ const features = reactive<Features>({
 const survivalProbability = ref<number | undefined>();
 
 const displayOutput = (): void => {
-  console.log(import.meta.env.VITE_DERIVE_ENDPOINT);
-
   const endPoint = import.meta.env.VITE_DERIVE_ENDPOINT;
   axios
     .post(endPoint, features)
